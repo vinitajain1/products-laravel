@@ -18,7 +18,8 @@
      DB_PASSWORD=YOUR_MYSQL_PASSWORD
     ```
 
-3) Run the following command in the order
+3) Run the following command in the order:
+   <br/>
    `composer install`
    <br/>
    `php artisan migrate`
