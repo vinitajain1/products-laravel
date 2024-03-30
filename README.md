@@ -9,13 +9,14 @@
 
 1. Clone this repo
 2. In .env file update the following details
-   `DB_CONNECTION=mysql
-    DB_HOST=127.0.0.1
-    DB_PORT=3306
-    DB_DATABASE=products
-    DB_USERNAME=YOUR_MYSQL_USERNAME
-    DB_PASSWORD=YOUR_MYSQL_PASSWORD
-`
+    ```
+     DB_CONNECTION=mysql
+     DB_HOST=127.0.0.1
+     DB_PORT=3306
+     DB_DATABASE=products
+     DB_USERNAME=YOUR_MYSQL_USERNAME
+     DB_PASSWORD=YOUR_MYSQL_PASSWORD
+    ```
 
 3) Run the following command in the order
    `composer install`
