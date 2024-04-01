@@ -10,7 +10,21 @@
 			"name": "get-products",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/products",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"products"
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +32,22 @@
 			"name": "get-product-by-id",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/products/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"products",
+						"1"
+					]
+				}
 			},
 			"response": []
 		},
@@ -26,7 +55,31 @@
 			"name": "create-product",
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_name\":\"iphone\",\n    \"product_category\":\"high end phone\",\n    \"product_price\":\"1000\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/products/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"products",
+						"create"
+					]
+				}
 			},
 			"response": []
 		},
@@ -34,7 +87,31 @@
 			"name": "update-product-by-id",
 			"request": {
 				"method": "PUT",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_name\":\"iphone\",\n    \"product_category\":\"high end smart phone\",\n    \"product_price\":\"1000\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/products/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"products",
+						"2"
+					]
+				}
 			},
 			"response": []
 		},
@@ -42,7 +119,22 @@
 			"name": "delete-product-by-id",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/products/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"products",
+						"1"
+					]
+				}
 			},
 			"response": []
 		}
